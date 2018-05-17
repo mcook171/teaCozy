@@ -1,0 +1,21 @@
+html {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+
+.title {
+
+}
+
+.title img {
+  height: 50px;
+  margin-left: 10px;
+}
