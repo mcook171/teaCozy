@@ -10,12 +10,15 @@ header {
   border-bottom: 1px solid seashell;
 }
 
-
-.title {
-
+nav span  a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin: auto 15px;
 }
 
-.title img {
+.logo img {
   height: 50px;
   margin-left: 10px;
 }
