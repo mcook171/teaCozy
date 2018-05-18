@@ -1,5 +1,8 @@
 html {
   background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
 }
 
 header {
@@ -7,18 +10,76 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 69px;
+  width: 100%;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 1;
+
 }
 
 nav span  a {
-  font-family: Helvetica;
+  display: inline-block;
   font-size: 22px;
-  color: seashell;
-  opacity: 0.9;
   margin: auto 15px;
+  color: seashell;
+}
+
+main {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+}
+
+main .mission {
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
 
 .logo img {
   height: 50px;
   margin-left: 10px;
+}
+
+ h2, h4 {
+  color: seashell;
+  opacity: 0.9;
+}
+
+.banner {
+  background-color: black;
+  width: 1200px;
+}
+
+
+.feature {
+  width: 1000px;
+  background-color: black;
+}
+
+.supporting {
+  text-align: center;
+}
+
+.teas img {
+  width: 300px;
+  height: 200px;
+}
+
+.teas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.t-pic {
+  text-align: center;
+  margin: 10px;
+
 }
