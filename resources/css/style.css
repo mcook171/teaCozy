@@ -4,16 +4,24 @@ html {
   color: seashell;
   opacity: 0.9;
 }
+body {
+  margin: 0;
+}
 
 header {
-  display: flex;
-  justify-content: space-between;
+  position: fixed;
   align-items: center;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
   background-color: black;
   z-index: 1;
+
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+
 
 }
 
@@ -25,14 +33,22 @@ nav span  a {
 }
 
 main {
-  margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   z-index: 5;
 }
 
+h2 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
 main .mission {
+  margin-top: 69px;
   width: 1200px;
   height: 700px;
   display: flex;
@@ -82,4 +98,10 @@ main .mission {
   text-align: center;
   margin: 10px;
 
+}
+
+.loc-container {
+  width: 1200px;
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 }
